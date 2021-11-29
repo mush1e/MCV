@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, Nav, Container, NavDropdown }from 'react-bootstrap'
+import {Navbar, Nav, Container, NavDropdown, Button, Form }from 'react-bootstrap'
 
 let Header = () => 
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -16,8 +16,10 @@ let Header = () =>
         <NavDropdown.Item href="#action/3.3">VISIT VISA</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="#Contact">CONTACT US</Nav.Link>
-
     </Nav>
+      <Form inline >
+        <Button variant="primary" href="/login">Book Appointment</Button>
+      </Form>
   </Navbar.Collapse>
   </Container>
 </Navbar>

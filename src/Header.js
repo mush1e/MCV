@@ -2,7 +2,7 @@ import React from "react";
 import {Navbar, Nav, Container, NavDropdown, Button, Form }from 'react-bootstrap'
 
 let Header = () => 
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+<Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
   <Container>
   <Navbar.Brand href="#home">MyCanadaVisas.com</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
